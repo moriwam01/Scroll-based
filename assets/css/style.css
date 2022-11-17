@@ -3,7 +3,7 @@
 .wrapper {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../images/background/bg_0.png");
+  /* background-image: url("../images/background/bg_0.png"); */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -85,7 +85,7 @@
 }
 
 .multisteps_form {
-  max-width: 56.25rem;
+  /* max-width: 56.25rem; */
   min-height: 45.9375rem;
   margin: 5rem auto;
   border-radius: 0.625rem;
@@ -157,6 +157,8 @@
   );
   background: linear-gradient(to right, #633bfc, #757ed1);
 }
+/* #757ed1 
+#dddff5*/
 
 .form_items {
   padding: 2rem 2rem 4rem 2rem;
@@ -457,7 +459,7 @@ button {
     padding-right: 1rem !important;
   }
   .multisteps_form {
-    max-width: 56rem;
+    /* max-width: 56rem; */
     min-height: 34rem;
     margin: 2.5rem auto;
     background-size: 100% 30%, 100% 18%;
@@ -508,7 +510,7 @@ button {
     padding-left: 0rem !important;
   }
   .multisteps_form {
-    max-width: 52rem;
+    /* max-width: 52rem; */
     min-height: 31rem;
     margin: 2.5rem auto;
     background-size: 100% 28%, 100% 15%;
