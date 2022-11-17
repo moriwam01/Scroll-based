@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizo HTML Template - V.6</title>
+    <!-- FontAwesome-cdn include -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Google fonts include -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Montserrat:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap-css include -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- Animate-css include -->
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <!-- Main-StyleSheet include -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper overflow-hidden">
+      <!-- Top content -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="logo_area pt-5 ps-5">
+              <a href="index.html">
+                <img
+                  src="./assets/images/logo/logo.png"
+                  alt="image-not-found"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 d-none d-sm-block">
+            <div class="count_box d-flex float-end pt-5 pe-5">
+              <div
+                class="count_clock countdown_timer d-flex align-items-center pe-5 me-3"
+                data-countdown="2022/10/24"
+              ></div>
+              <!-- <div id="countdown"></div> -->
+              <!-- Step Progress bar -->
+              <div class="count_progress clip-1">
+                <span class="progress-left">
+                  <span class="progress_bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress_bar"></span>
+                </span>
+                <div class="progress-value">
+                  <div id="value">100%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <form
+          class="multisteps_form bg-white position-relative overflow-hidden"
+          id="wizard"
+          method="POST"
+          action="../thankyou/index-3.html"
+        >
+          <!------------------------- Step-1 ----------------------------->
+          <div class="multisteps_form_panel step">
+            <div class="quiz_container">
+              <div class="question_title">
+                <div
+                  class="question_number text-center text-uppercase text-white"
+                >
+                  <span class="rounded-pill">Question 1 to 5</span>
+                </div>
+                <h1 class="animate__animated animate__fadeInRight animate_25ms">
+                  Select the most appropriate situation for that a blind search
+                  can be used.
+                </h1>
+              </div>
+              <div class="row pt-5 my-4 form_items">
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="active step_1 animate__animated animate__fadeInRight animate_50ms"
+                    >
+                      <input
+                        id="opt_1"
+                        type="radio"
+                        name="stp_1_select_option"
+                        value="Real-life situation"
+                      />
+                      <label for="opt_1">Real-life situation</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_1 animate__animated animate__fadeInRight animate_100ms"
+                    >
+                      <input
+                        id="opt_2"
+                        type="radio"
+                        name="stp_1_select_option"
+                        value="Small Search Space"
+                      />
+                      <label for="opt_2">Small Search Space</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_1 animate__animated animate__fadeInRight animate_150ms"
+                    >
+                      <input
+                        id="opt_3"
+                        type="radio"
+                        name="stp_1_select_option"
+                        value="Complex game"
+                      />
+                      <label for="opt_3">Complex game</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_1 animate__animated animate__fadeInRight animate_200ms"
+                    >
+                      <input
+                        id="opt_4"
+                        type="radio"
+                        name="stp_1_select_option"
+                        value="All of the above"
+                      />
+                      <label for="opt_4">All of the above</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <!------------------------- Step-2 ----------------------------->
+          <div class="multisteps_form_panel step">
+            <div class="question_number text-center text-uppercase text-white">
+              <span class="rounded-pill">Question 2 to 5</span>
+            </div>
+            <div class="question_title">
+              <h1 class="animate__animated animate__fadeInRight animate_25ms">
+                The application/applications of Artificial Intelligence is/are
+              </h1>
+            </div>
+
+            <div class="row pt-5 my-4 form_items">
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_2 animate__animated animate__fadeInRight animate_50ms"
+                  >
+                    <input
+                      id="opt_5"
+                      type="radio"
+                      name="stp_2_select_option"
+                      value="Expert Systems"
+                    />
+                    <label for="opt_5">Expert Systems</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_2 animate__animated animate__fadeInRight animate_100ms"
+                  >
+                    <input
+                      id="opt_6"
+                      type="radio"
+                      name="stp_2_select_option"
+                      value="Gaming"
+                    />
+                    <label for="opt_6">Gaming</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_2 animate__animated animate__fadeInRight animate_150ms"
+                  >
+                    <input
+                      id="opt_7"
+                      type="radio"
+                      name="stp_2_select_option"
+                      value="Vision Systems"
+                    />
+                    <label for="opt_7">Vision Systems</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_2 animate__animated animate__fadeInRight animate_200ms"
+                  >
+                    <input
+                      id="opt_8"
+                      type="radio"
+                      name="stp_2_select_option"
+                      value="All of the above"
+                    />
+                    <label for="opt_8">All of the above</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!------------------------- Step-3 ----------------------------->
+          <div class="multisteps_form_panel step">
+            <div class="quiz_container">
+              <div
+                class="question_number text-center text-uppercase text-white"
+              >
+                <span class="rounded-pill">Question 3 to 5</span>
+              </div>
+              <div class="question_title">
+                <h1 class="animate__animated animate__fadeInRight animate_25ms">
+                  Among the given options, Which search algorithm requires less
+                  memory?
+                </h1>
+              </div>
+
+              <div class="row pt-5 my-4 form_items">
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_3 animate__animated animate__fadeInRight animate_50ms"
+                    >
+                      <input
+                        id="opt_9"
+                        type="radio"
+                        name="stp_3_select_option"
+                        value="Optimal Search"
+                      />
+                      <label for="opt_9">Optimal Search</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_3 animate__animated animate__fadeInRight animate_100ms"
+                    >
+                      <input
+                        id="opt_10"
+                        type="radio"
+                        name="stp_3_select_option"
+                        value="Depth First Search"
+                      />
+                      <label for="opt_10">Depth First Search</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_3 animate__animated animate__fadeInRight animate_150ms"
+                    >
+                      <input
+                        id="opt_11"
+                        type="radio"
+                        name="stp_3_select_option"
+                        value="Breadth-First Search"
+                      />
+                      <label for="opt_11">Breadth-First Search</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_3 animate__animated animate__fadeInRight animate_200ms"
+                    >
+                      <input
+                        id="opt_12"
+                        type="radio"
+                        name="stp_3_select_option"
+                        value="Linear Search"
+                      />
+                      <label for="opt_12">Linear Search</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <!------------------------- Step-4 ----------------------------->
+          <div class="multisteps_form_panel step">
+            <div class="question_number text-center text-uppercase text-white">
+              <span class="rounded-pill">Question 4 to 5</span>
+            </div>
+            <div class="question_title">
+              <h1 class="animate__animated animate__fadeInRight animate_25ms">
+                The component of an Expert system is_________.
+              </h1>
+            </div>
+
+            <div class="row pt-5 my-4 form_items">
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_4 animate__animated animate__fadeInRight animate_50ms"
+                  >
+                    <input
+                      id="opt_13"
+                      type="radio"
+                      name="stp_4_select_option"
+                      value="Knowledge Base"
+                    />
+                    <label for="opt_13">Knowledge Base</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_4 animate__animated animate__fadeInRight animate_100ms"
+                  >
+                    <input
+                      id="opt_14"
+                      type="radio"
+                      name="stp_4_select_option"
+                      value="Inference Engine"
+                    />
+                    <label for="opt_14">Inference Engine</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_4 animate__animated animate__fadeInRight animate_150ms"
+                  >
+                    <input
+                      id="opt_15"
+                      type="radio"
+                      name="stp_4_select_option"
+                      value="User Interface"
+                    />
+                    <label for="opt_15">User Interface</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled p-0">
+                  <li
+                    class="step_4 animate__animated animate__fadeInRight animate_200ms"
+                  >
+                    <input
+                      id="opt_16"
+                      type="radio"
+                      name="stp_4_select_option"
+                      value="All of the above"
+                    />
+                    <label for="opt_16">All of the above</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!------------------------- Step-5 ----------------------------->
+          <div class="multisteps_form_panel step">
+            <div class="quiz_container">
+              <div class="question_title">
+                <div
+                  class="question_number text-center text-uppercase text-white"
+                >
+                  <span class="rounded-pill">Question 5 to 5</span>
+                </div>
+                <h1 class="animate__animated animate__fadeInRight animate_25ms">
+                  Which algorithm is used in the Game tree to make decisions of
+                  Win/Lose?
+                </h1>
+              </div>
+
+              <div class="row pt-5 my-4 form_items">
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_5 animate__animated animate__fadeInRight animate_50ms"
+                    >
+                      <input
+                        id="opt_17"
+                        type="radio"
+                        name="stp_5_select_option"
+                        value="Heuristic Search Algorithm"
+                      />
+                      <label for="opt_17">Heuristic Search Algorithm</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_5 animate__animated animate__fadeInRight animate_100ms"
+                    >
+                      <input
+                        id="opt_18"
+                        type="radio"
+                        name="stp_5_select_option"
+                        value="DFS/BFS algorithm"
+                      />
+                      <label for="opt_18">DFS/BFS algorithm</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_5 animate__animated animate__fadeInRight animate_150ms"
+                    >
+                      <input
+                        id="opt_19"
+                        type="radio"
+                        name="stp_5_select_option"
+                        value="Greedy Search Algorithm"
+                      />
+                      <label for="opt_19">Greedy Search Algorithm</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled p-0">
+                    <li
+                      class="step_5 animate__animated animate__fadeInRight animate_200ms"
+                    >
+                      <input
+                        id="opt_20"
+                        type="radio"
+                        name="stp_5_select_option"
+                        value="Min/Max algorithm"
+                      />
+                      <label for="opt_20">Min/Max algorithm</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---------- Form Button ---------->
+          <div class="form_btn">
+            <button
+              type="button"
+              class="prev_btn position-absolute text-uppercase border-0"
+              id="prevBtn"
+              onclick="nextPrev(-1)"
+            >
+              <span><i class="fas fa-arrow-left"></i></span> Back
+            </button>
+            <button
+              type="button"
+              class="next_btn rounded-pill position-absolute text-uppercase text-white"
+              id="nextBtn"
+              onclick="nextPrev(1)"
+            >
+              Next
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- jQuery-js include -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap-js include -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- jQuery-counter-up-js include -->
+    <script src="./assets/js/countdown.js"></script>
+    <!-- jQuery-validate-js include -->
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <!-- Custom-js include -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
