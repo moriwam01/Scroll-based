@@ -425,6 +425,7 @@ button {
   .question_number span {
     font-size: 0.8rem;
     font-weight: 500;
+    padding: 0.5rem 7rem;
   }
   .form_items li {
     margin-top: 0.8rem;
@@ -476,6 +477,7 @@ button {
   .question_number span {
     font-size: 0.6rem;
     font-weight: 500;
+    padding: 0.5rem 8rem;
   }
   .form_items li {
     margin-top: 0.6rem;
